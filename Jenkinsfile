@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Cloning BoardGame project') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/shashankJ17/Board_game_project.git'
             }
         }
         
